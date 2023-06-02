@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="title">
+                Survey from DTeam
+            </h1>
+        </header>
+        <form action="process_form.php" method="post" id="survey-form">
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest1">What are your strengths as a student?</p>
+                <label>
+                    <input type="radio" name="strengths" value="verbal-skills" class="inputRadio" checked>
+                    Verbal skills
+                </label>
+                <label>
+                    <input type="radio" name="strengths" value="logical-thinking" class="inputRadio">
+                    Logical thinking
+                </label>
+                <label>
+                    <input type="radio" name="strengths" value="creativity" class="inputRadio">
+                    Creativity
+                </label>
+                <label>
+                    <input type="radio" name="strengths" value="listening-skills" class="inputRadio">
+                    Listening skills
+                </label>
+                <label>
+                    <input type="radio" name="strengths" value="other" class="inputRadio">
+                    Other
+                </label>
+            </div>
+            <!-- end of radio button section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest2">What are your goals for your studies?</p>
+                <label>
+                    <input type="radio" name="goals" value="improving-skills" class="inputRadio" checked>
+                    Improving my skills
+                </label>
+                <label>
+                    <input type="radio" name="goals" value="getting-a-job" class="inputRadio">
+                    Getting a job
+                </label>
+                <label>
+                    <input type="radio" name="goals" value="social-media-promoter" class="inputRadio">
+                    Social media promoter
+                </label>
+                <label>
+                    <input type="radio" name="goals" value="game-developer" class="inputRadio">
+                    Game developer
+                </label>
+                <label>
+                    <input type="radio" name="goals" value="other" class="inputRadio">
+                    Other
+                </label>
+            </div>
+            <!-- end of radio button section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest3">What are your study habits?</p>
+                <label>
+                    <input type="radio" name="study-habits" value="pomodoro" class="inputRadio" checked>
+                    Pomodoro
+                </label>
+                <label>
+                    <input type="radio" name="study-habits" value="listening-music" class="inputRadio">
+                    Listening to music
+                </label>
+                <label>
+                    <input type="radio" name="study-habits" value="late-night" class="inputRadio">
+                    Late night
+                </label>
+                <label>
+                    <input type="radio" name="study-habits" value="early-morning" class="inputRadio">
+                    Early morning
+                </label>
+                <label>
+                    <input type="radio" name="study-habits" value="other" class="inputRadio">
+                    Other
+                </label>
+            </div>
+            <!-- end of radio button section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest4">What are your biggest challenges in your studies?</p>
+                <label>
+                    <input type="radio" name="challenges" value="low-marks" class="inputRadio" checked>
+                    Low marks
+                </label>
+                <label>
+                    <input type="radio" name="challenges" value="time-management" class="inputRadio">
+                    Time management
+                </label>
+                <label>
+                    <input type="radio" name="challenges" value="social-media" class="inputRadio">
+                    Social media
+                </label>
+                <label>
+                    <input type="radio" name="challenges" value="overconfidence" class="inputRadio">
+                    Overconfidence
+                </label>
+                <label>
+                    <input type="radio" name="challenges" value="other" class="inputRadio">
+                    Other
+                </label>
+            </div>
+            <!-- end of radio button section -->
+
+            <!-- radio button section -->
+            <div class="form-group">
+                <p id="quest5">How much time would you like to spend on studies?</p>
+                <label>
+                    <input type="radio" name="study-time" value="15-min" class="inputRadio">
+                    15 minutes
+                </label>
+                <label>
+                    <input type="radio" name="study-time" value="30-min" class="inputRadio">
+                    30 minutes
+                </label>
+                <label>
+                    <input type="radio" name="study-time" value="45-min" class="inputRadio">
+                    45 minutes
+                </label>
+                <label>
+                    <input type="radio" name="study-time" value="60-min" class="inputRadio">
+                    60 minutes
+                </label>
+                <label>
+                    <input type="radio" name="study-time" value="other" class="inputRadio">
+                    Other
+                </label>
+            </div>
+            <!-- end of radio button section -->
+
+            <div class="form-group">
+                <button type="submit" id="submit" class="btn">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
